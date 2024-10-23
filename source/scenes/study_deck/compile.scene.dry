@@ -1,0 +1,21 @@
+title: Compile Research
+new-page: true
+max-visits: 3
+is-card: true
+card-image: img/poster_1.png
+tags: study_deck
+
+= Compile Research
+
+Question?
+
+- @option1: Option One
+- @option2: Option Two
+
+@option1
+
+This is the result.
+
+@option2
+
+This is the result.
