@@ -9,7 +9,7 @@ max-cards: 5
 
 @study
 title: Study
-card-image: img/Study_1.png
+card-image: img/Study_1.jpg
 is-deck: true
 
 - #study_deck
