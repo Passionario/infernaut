@@ -1,0 +1,42 @@
+title: Root Scene
+new-page: true
+go-to: post_event if started = 1; start_menu if started = 0
+
+@start_menu
+new-page: true
+go-to: start_menu_2
+
+= Infernaut
+
+@start_menu_2
+
+- @start: Start game
+
+
+@start
+on-arrival: {!
+Q.started = 1;
+!}
+new-page: true
+
+> *"Opening quote."*
+
+ - Author, *Book*, year number
+
+This is a disclaimer about what kind of game this is.
+
+This is the second paragraph.
+
+- @1928_main: Begin (normal difficulty)
+
+@1928_main
+new-page: true
+go-to: main 
+
+= It Begins
+
+It is an opening paragraph. 
+
+Now, this is the second paragraph.
+
+
