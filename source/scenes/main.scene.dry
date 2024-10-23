@@ -1,0 +1,22 @@
+title: Next month
+is-hand: true
+max-cards: 5
+
+#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
+
+- @study
+- @explore
+
+@study
+title: Study
+card-image: img/Study_1.png
+is-deck: true
+
+- #study_deck
+
+@explore
+title: Explore
+card-image: img/Explore_1.jpg
+is-deck: true
+
+- #explore_deck
