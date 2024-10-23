@@ -1,0 +1,8 @@
+v0.1:
+
+It begins.
+
+Current TODO:
+
+Finish setting up base things.
+Trim down to minimum.
