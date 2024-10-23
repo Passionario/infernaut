@@ -2,7 +2,8 @@ v0.1:
 
 It begins.
 
+10/23: Finished setting up base things. Trimmed down to minimum.
+
 Current TODO:
 
-Finish setting up base things.
-Trim down to minimum.
+Add main variables to root.
