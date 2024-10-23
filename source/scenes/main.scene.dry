@@ -10,14 +10,14 @@ max-cards: 5
 
 @study
 title: Study
-card-image: img/Study_2.jpg
+card-image: img/Study_2.png
 is-deck: true
 
 - #study_deck
 
 @explore
 title: Explore
-card-image: img/Explore_1.jpg
+card-image: img/Explore_2.png
 is-deck: true
 
 - #explore_deck
