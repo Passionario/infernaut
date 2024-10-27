@@ -10,7 +10,7 @@ max-cards: 5
 
 @study
 title: Study
-card-image: img/Study_2.png
+card-image: img/Study_2.png if test = 0; img/Study_1.png if test = 1; 
 is-deck: true
 
 - #study_deck
