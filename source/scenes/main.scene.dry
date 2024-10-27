@@ -12,14 +12,6 @@ max-cards: 5
 title: Study
 card-image: img/Study_2.png
 is-deck: true
-on-arrival: {!
-if (Q.test == 0) {
-    this.card-image('img/Study_2.png');
-}
-if (Q.test == 1) {
-    this.card-image('img/Study_1.png');
-}
-!}
 
 - #study_deck
 
