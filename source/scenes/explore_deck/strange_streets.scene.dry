@@ -13,9 +13,11 @@ Question?
 - @option2: Option Two
 
 @option1
+on-arrival: test = 1
 
 This is the result.
 
 @option2
+on-arrival: test = 0
 
 This is the result.
