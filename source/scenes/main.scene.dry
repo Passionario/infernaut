@@ -2,14 +2,6 @@ title: Next month
 set-bg: img/bg_2.jpg
 is-hand: true
 max-cards: 5
-on-arrival: {!
-if (Q.test == 0) {
-    this.card-image('img/Study_2.png');
-}
-if (Q.test == 1) {
-    this.card-image('img/Study_1.png');
-}
-!}
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card. 
 
@@ -18,7 +10,16 @@ if (Q.test == 1) {
 
 @study
 title: Study
+card-image: img/Study_2.png
 is-deck: true
+on-arrival: {!
+if (Q.test == 0) {
+    this.card-image('img/Study_2.png');
+}
+if (Q.test == 1) {
+    this.card-image('img/Study_1.png');
+}
+!}
 
 - #study_deck
 
