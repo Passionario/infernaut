@@ -4,7 +4,7 @@ is-special: true
 
 = Status
 
-Parameter: Normal
+Test Parameter: [+ test +]
 
 = Other Things
 
