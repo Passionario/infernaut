@@ -33,7 +33,7 @@ This is the second paragraph.
 
 @1928_main
 new-page: true
-go-to: main 
+go-to: main if test <= 0; main.main_other if test >= 1
 
 = It Begins
 
