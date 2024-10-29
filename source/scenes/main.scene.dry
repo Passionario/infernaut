@@ -8,16 +8,20 @@ max-cards: 5
 - @study
 - @explore
 
+
+@main_other
+set-bg: img/bg_2.jpg
+is-hand: true
+max-cards: 5
+
+#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card. 
+
+- @study_other
+- @explore_other
+
 @study
 title: Study
-card-image: {!
-if (Q.test = 0) {
-    img/Study_2.jpg
-}
-if (Q.test = 1) {
-    img/Study_1.jpg
-}
-!}
+card-image: img/Study_2.png
 is-deck: true
 
 - #study_deck
@@ -25,6 +29,20 @@ is-deck: true
 @explore
 title: Explore
 card-image: img/Explore_2.png
+is-deck: true
+
+- #explore_deck
+
+@study_other
+title: Study
+card-image: img/Study_1.jpg
+is-deck: true
+
+- #study_deck
+
+@explore_other
+title: Explore
+card-image: img/Explore_1.jpg
 is-deck: true
 
 - #explore_deck
