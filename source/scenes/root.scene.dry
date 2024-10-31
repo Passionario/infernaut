@@ -17,7 +17,7 @@ go-to: start_menu_2
 @start
 on-arrival: {!
 Q.started = 1;
-Q.test = 1;
+q.test = 1;
 !}
 new-page: true
 
