@@ -18,6 +18,8 @@ go-to: start_menu_2
 on-arrival: {!
 Q.started = 1;
 Q.test = 1;
+Q.layer = 1;
+q.truth = 2;
 !}
 new-page: true
 
