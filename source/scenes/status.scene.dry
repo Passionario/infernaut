@@ -4,9 +4,7 @@ is-special: true
 
 = Status
 
-Test Parameter: [+ test +]
 Layer: [+ layer +]
-Truth Value: [+ truth +]
 
 = Other Things
 
